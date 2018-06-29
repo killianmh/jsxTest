@@ -238,7 +238,7 @@ class Dashboard extends Component {
                                                 (<div className="px-3">
                                                     <div>
                                                         <button className="btn btn-primary w-100 mb-3" onClick={this.openModalCreate} id="createProduct">Add a Product</button>
-                                                        <h1>You don't have any products...Would you like to create one?</h1>
+                                                        <h1>You don"'"t have any products...Would you like to create one?</h1>
                                                     </div>
                                                     <Modal isOpen={this.state.modalIsOpenCreate}
                                                         onAfterOpen={this.afterOpenModalCreate}
